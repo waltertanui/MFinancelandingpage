@@ -37,6 +37,11 @@
   text-align: center;
   color: var(--text-light);
 }
+.list{
+  margin: auto;
+  max-width: 600px;
+  color: var(--text-light);
+}
 
 .btn {
   padding: 1rem 2rem;
@@ -126,7 +131,7 @@ nav {
 }
 
 .header__container::before {
-  content: "FITNESS";
+  content: "STATISTICS";
   position: absolute;
   bottom: 5rem;
   right: 20rem;
@@ -170,11 +175,13 @@ nav {
 
 .header__image {
   position: relative;
+  
 }
 
 .header__image::before {
   content: "o";
   position: absolute;
+  border-radius:10 ;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -189,6 +196,7 @@ nav {
 .header__image img {
   max-width: 350px;
   margin: auto;
+ 
 }
 
 .explore__header {
